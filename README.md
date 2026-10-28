@@ -96,10 +96,10 @@ The real lab results agree: cement-only mixes reached a median **65%** of their 
 
 | File | What it does |
 |---|---|
-| `concrete_day1_explore.py` | Explores the data: mixes, ages, correlations, 7-day vs 28-day |
-| `concrete_day2_clean.py` | Removes copies and suspect results, adds engineer's columns, saves `clean_concrete.csv` |
-| `concrete_day3_models.py` | Compares models with a random and an honest test, saves the model |
-| `concrete_day4_insights.py` | Repeated honest test, effect of w/c, strength gain by binder type |
+| `concrete_day1_explore.ipynb` | Explores the data: mixes, ages, correlations, 7-day vs 28-day |
+| `concrete_day2_clean.ipynb` | Removes copies and suspect results, adds engineer's columns, saves `clean_concrete.csv` |
+| `concrete_day3_models.ipynb` | Compares models with a random and an honest test, saves the model |
+| `concrete_day4_insights.ipynb` | Repeated honest test, effect of w/c, strength gain by binder type |
 
 **To run:** put `Concrete_Data.xls` (from the UCI repository) in the same folder, `pip install pandas numpy scikit-learn matplotlib xlrd joblib`, then run the scripts in order.
 
